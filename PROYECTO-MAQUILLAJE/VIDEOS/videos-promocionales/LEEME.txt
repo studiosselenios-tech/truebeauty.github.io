@@ -1,0 +1,2 @@
+Coloca aquí tu video con el nombre: video-promocional.mp4
+Después abre HTML/index.html y quita los comentarios indicados en la sección VIDEO OPCIONAL.

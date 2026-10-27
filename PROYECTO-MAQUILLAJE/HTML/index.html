@@ -1,0 +1,1710 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="True Beauty: Para todos los tonos, todos los rostros y todas las historias.">
+
+  <title>True Beauty — Maquillaje que expresa tu esencia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../STYLE/style.css">
+
+  <link rel="icon" type="image/png"
+    href="../IMAGENES/logo true beauty.png">
+
+  <script src="../JAVA-SCRIPT/script.js" defer></script>
+</head>
+
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+  <a class="brand" href="#inicio" aria-label="Ir al inicio">
+
+    <img
+      src="../IMAGENES/logo true beauty.png"
+      alt="True Beauty"
+      class="logo-principal">
+
+  </a>
+
+  <button
+    class="menu-button"
+    type="button"
+    aria-label="Abrir menú"
+    aria-expanded="false">
+
+    <span></span>
+    <span></span>
+
+  </button>
+
+  <nav class="nav" aria-label="Navegación principal">
+
+    <a href="#inicio">Inicio</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#blog">Blog</a>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="inicio">
+
+  <img
+    class="hero-image"
+    src="../IMAGENES/hero/portada-maquillaje-horizontal.jpg"
+    alt="Modelo con maquillaje True Beauty">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content reveal">
+
+    <p class="kicker">
+      <span></span>
+      True Beauty · Belleza sin filtros
+    </p>
+
+    <h1>
+      Para todos los tonos, todos los rostros y todas las historias.
+    </h1>
+
+    <p class="hero-copy">
+      Belleza sin filtros.
+    </p>
+
+    <div class="hero-actions">
+
+      <a class="button primary" href="#catalogo">
+        Ver catálogo <b>→</b>
+      </a>
+
+      <a class="button secondary" href="#blog">
+        Conoce nuestro blog
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= BENEFICIOS ================= -->
+
+<section class="benefits" aria-label="Nuestros valores">
+
+  <article>
+    <span class="benefit-icon">◇</span>
+
+    <div>
+      <h3>Calidad</h3>
+      <p>Fórmulas seleccionadas</p>
+    </div>
+  </article>
+
+
+  <article>
+    <span class="benefit-icon">♢</span>
+
+    <div>
+      <h3>Elegancia</h3>
+      <p>Diseño en cada detalle</p>
+    </div>
+  </article>
+
+
+  <article>
+    <span class="benefit-icon">♡</span>
+
+    <div>
+      <h3>Belleza</h3>
+      <p>Hecha para ser auténtica</p>
+    </div>
+  </article>
+
+</section>
+
+
+<!-- ================= DESTACADOS ================= -->
+
+<section class="featured">
+
+  <div class="featured-copy reveal">
+
+    <p class="kicker gold">
+      Selección de la TRUE-BEAUTY
+    </p>
+
+    <h2>Belleza sin filtros.</h2>
+
+    <p>
+      Una edición curada de esenciales que convierte tu rutina
+      en un ritual personal.
+    </p>
+
+    <div class="slider-controls">
+
+      <button id="prev-slide" aria-label="Producto anterior">
+        ‹
+      </button>
+
+      <button id="next-slide" aria-label="Producto siguiente">
+        ›
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <div class="carousel reveal">
+
+    <article class="slide active">
+
+      <img
+        src="../IMAGENES/productos/RougeLabial2.png"
+        alt="Labial Rouge Éternel">
+
+      <div>
+        <small>Labiales</small>
+        <h3>Rouge Éternel</h3>
+      </div>
+
+    </article>
+
+
+    <article class="slide">
+
+      <img
+        src="../IMAGENES/productos/bases.png"
+        alt="Base Seconde Peau">
+
+      <div>
+        <small>Bases</small>
+        <h3>Base Seconde Peau</h3>
+      </div>
+
+    </article>
+
+
+    <article class="slide">
+
+      <img
+        src="../IMAGENES/productos/paleta-mirada.jpg"
+        alt="Paleta Mirada">
+
+      <div>
+        <small>Sombras</small>
+        <h3>Paleta Mirada</h3>
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CATÁLOGO ================= -->
+
+<section class="catalog" id="catalogo">
+
+  <header class="section-title reveal">
+
+    <p class="kicker centered">
+      <span></span>
+      Nuestra colección
+      <span></span>
+    </p>
+
+    <h2>Belleza con intención</h2>
+
+    <p>
+      Descubre fórmulas de alto desempeño y colores concebidos
+      para revelar tu mejor versión.
+    </p>
+
+  </header>
+
+
+  <div class="filters" aria-label="Filtros del catálogo">
+
+    <button class="active" data-filter="Todos">Todos</button>
+    <button data-filter="Labiales">Labiales</button>
+    <button data-filter="Bases">Bases</button>
+    <button data-filter="Sombras">Sombras</button>
+    <button data-filter="Rubores">Rubores</button>
+    <button data-filter="Iluminadores">Iluminadores</button>
+    <button data-filter="Accesorios">Accesorios</button>
+
+  </div>
+
+
+  <div class="product-grid">
+
+
+    <!-- LABIALES -->
+
+    <article class="product reveal" data-category="Labiales">
+
+      <img
+        src="../IMAGENES/productos/coraltinta.png"
+        alt="Tint Coral">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Labiales</small>
+            <h3>Tint Coral</h3>
+          </span>
+
+          <b>$42.000</b>
+
+        </div>
+
+        <p>
+          Un coral fresco y jugoso con acabado satinado de larga duración.
+        </p>
+
+        <button class="product-link" data-product="Tint Coral">
+       
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <article class="product reveal" data-category="Labiales">
+
+      <img
+        src="../IMAGENES/productos/LABIAL3.png"
+        alt="Tint Café Nude">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Labiales</small>
+            <h3>Tint Café Nude</h3>
+          </span>
+
+          <b>$38.000</b>
+
+        </div>
+
+        <p>
+          Nude cálido universal, el favorito para el día a día.
+        </p>
+
+        <button class="product-link" data-product="Tint Café Nude">
+        
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <article class="product reveal" data-category="Labiales">
+
+      <img
+        src="../IMAGENES/productos/RougeLabial.png"
+        alt="Labial vinotinto">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Labiales</small>
+            <h3>Rouge Éternel</h3>
+          </span>
+
+          <b>$48.000</b>
+
+        </div>
+
+        <p>
+          Color intenso, acabado satinado y confort duradero.
+        </p>
+
+        <button class="product-link" data-product="Rouge Éternel">
+          
+        </button>
+
+      </div>
+
+    </article>
+    
+
+
+    <!-- BASES -->
+
+    <article class="product reveal" data-category="Bases">
+
+      <img
+        src="../IMAGENES/productos/BASE_GLOW.png"
+        alt="Base Adapt Skin Luminosa">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Bases</small>
+            <h3>Base Adapt Skin Luminosa</h3>
+          </span>
+
+          <b>$42.000</b>
+
+        </div>
+
+        <p>
+          Acabado húmedo tipo "skin glow" con ácido hialurónico para piel hidratada.
+        </p>
+
+        <button class="product-link" data-product="Base Adapt Skin Luminosa">
+      
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <article class="product reveal" data-category="Bases">
+
+      <img
+        src="../IMAGENES/productos/bases2.png"
+        alt="Base Seconde Peau">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Bases</small>
+            <h3>Base Seconde Peau</h3>
+          </span>
+
+          <b>$72.000</b>
+
+        </div>
+
+        <p>
+          Cobertura modulable con luminosidad natural.
+        </p>
+
+
+      </div>
+
+    </article>
+<article class="product reveal" data-category="Bases">
+
+  <img
+    src="../IMAGENES/productos/baseoriginal.png"
+    alt="Base Adapt Skin Original">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Bases</small>
+        <h3>Base Adapt Skin Original</h3>
+      </span>
+
+      <b>$79.000</b>
+
+    </div>
+
+    <p>
+     Cobertura media construible que se adapta a tu subtono real en segundos.
+    </p>
+
+  
+
+  </div>
+
+</article>
+
+    <!-- SOMBRAS -->
+
+    <article class="product reveal" data-category="Sombras">
+
+      <img
+        src="../IMAGENES/productos/Paleta.png"
+        alt="Paleta de sombras">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Sombras</small>
+            <h3>Paleta Mirada</h3>
+          </span>
+
+          <b>$68.000</b>
+
+        </div>
+
+        <p>
+          Nueve tonos sedosos para looks infinitos.
+        </p>
+
+       
+      </div>
+
+    </article>
+    <article class="product reveal" data-category="Sombras">
+
+  <img
+    src="../IMAGENES/productos/Paleta Terra Mini.png"
+    alt="Paleta Terra Mini">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Sombras</small>
+        <h3>Paleta Terra Mini</h3>
+      </span>
+
+      <b>$65.900</b>
+
+    </div>
+
+    <p>
+      Cuatro tonos de viaje, perfectos para llevar en tu neceser.
+    </p>
+
+    
+
+  </div>
+
+</article>
+<article class="product reveal" data-category="Sombras">
+
+  <img
+    src="../IMAGENES/productos/paletaTerra.png"
+    alt="Paleta Terra Sunset">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Sombras</small>
+        <h3>Paleta Terra Sunset</h3>
+      </span>
+
+      <b>$50.000</b>
+
+    </div>
+
+    <p>
+      Vinotintos y cobres para un ahumado cálido de día o de noche.
+    </p>
+
+    
+
+  </div>
+
+</article>
+
+
+    <!-- RUBOR -->
+
+    <article class="product reveal" data-category="Rubores">
+
+      <img
+        src="../IMAGENES/productos/rubor.png"
+        alt="Rubor rosa">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Rubores</small>
+            <h3>Rubor Pétale</h3>
+          </span>
+
+          <b>$24.000</b>
+
+        </div>
+
+        <p>
+          Un velo de color suave y favorecedor.
+        </p>
+
+      </div>
+
+    </article>
+    <article class="product reveal" data-category="Rubores">
+
+  <img
+    src="../IMAGENES/productos/Glow Berry.png"
+    alt="Glow Berry">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Rubores</small>
+        <h3>Glow Berry</h3>
+      </span>
+
+      <b>$47.900</b>
+
+    </div>
+
+    <p>
+      Un vinotinto suave que aporta profundidad y dimensión a pieles oscuras.
+    </p>
+
+   
+
+  </div>
+
+</article>
+<article class="product reveal" data-category="Rubores">
+
+  <img
+    src="../IMAGENES/productos/Glow Rosé.png"
+    alt="Glow Rosé">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Rubores</small>
+        <h3>Glow Rosé</h3>
+      </span>
+
+      <b>$45.900</b>
+
+    </div>
+
+    <p>
+      Rosa suave translúcido, ideal para un efecto natural desde la primera capa.
+    </p>
+
+    
+
+  </div>
+
+</article>
+
+
+    <!-- ILUMINADOR -->
+
+    <article class="product reveal" data-category="Iluminadores">
+
+      <img
+        src="../IMAGENES/productos/iluminador.png"
+        alt="Iluminador dorado">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Iluminadores</small>
+            <h3>Lumière Dorée</h3>
+          </span>
+
+          <b>$52.000</b>
+
+        </div>
+
+        <p>
+          Brillo champagne de efecto segunda piel.
+        </p>
+
+        
+
+      </div>
+
+    </article>
+<article class="product reveal" data-category="Iluminadores">
+
+  <img
+    src="../IMAGENES/productos/iluminadorSolstice Gold.png"
+    alt="Solstice Gold">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Iluminadores</small>
+        <h3>Solstice Gold</h3>
+      </span>
+
+      <b>$52.900</b>
+
+    </div>
+
+    <p>
+      Reflejo dorado cálido, ideal para pieles medias a oscuras.
+    </p>
+
+   
+
+  </div>
+
+</article>
+<article class="product reveal" data-category="Iluminadores">
+
+  <img
+    src="../IMAGENES/productos/Solstice Rosé.png"
+    alt="Solstice Rosé">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Iluminadores</small>
+        <h3>Solstice Rosé</h3>
+      </span>
+
+      <b>$52.900</b>
+
+    </div>
+
+    <p>
+      Brillo rosado frío, perfecto para pieles claras y subtono frío.
+    </p>
+
+  
+
+  </div>
+
+</article>
+
+
+    <!-- ACCESORIOS -->
+
+    <article class="product reveal" data-category="Accesorios">
+
+      <img
+        src="../IMAGENES/productos/brochas.png"
+        alt="Brochas profesionales">
+
+      <div class="product-body">
+
+        <div class="product-head">
+
+          <span>
+            <small>Accesorios</small>
+            <h3>Pinceaux Nº 6</h3>
+          </span>
+
+          <b>$36.000</b>
+
+        </div>
+
+        <p>
+          Brochas esenciales de precisión profesional.
+        </p>
+
+      
+
+      </div>
+
+    </article>
+    <article class="product reveal" data-category="Accesorios">
+
+  <img
+    src="../IMAGENES/productos/accesorios.png"
+    alt="Balaca">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Accesorios</small>
+        <h3>Balaca</h3>
+      </span>
+
+      <b>$10.000</b>
+
+    </div>
+
+    <p>
+     Hermosas y cómodas balacas para maquillaje o cuidado facial.
+    </p>
+
+    
+
+  </div>
+
+</article>
+<article class="product reveal" data-category="Accesorios">
+
+  <img
+    src="../IMAGENES/productos/rodillo1.png"
+    alt="Rodillo">
+
+  <div class="product-body">
+
+    <div class="product-head">
+
+      <span>
+        <small>Accesorios</small>
+        <h3>Rodillo</h3>
+      </span>
+
+      <b>$20.000</b>
+
+    </div>
+
+    <p>
+     Con un buen Rodillo de maquillaje, cualquier persona puedes tener una mejor piel.
+    </p>
+
+  
+
+  </div>
+
+</article>
+
+  </div>
+
+</section>
+
+
+<!-- ================= BLOG ================= -->
+
+<section class="blog" id="blog">
+
+  <header class="blog-head reveal">
+    <div>
+      <p class="kicker">
+        <span></span>
+        Diario True Beauty
+      </p>
+      <h2>El arte de expresarte</h2>
+    </div>
+
+    <p>
+      Inspiración, rituales y consejos expertos para vivir
+      la belleza a tu manera.
+    </p>
+  </header>
+
+  <div class="blog-grid">
+
+    <!-- ARTÍCULO 1 -->
+    <article class="post large reveal">
+      <img
+        src="../IMAGENES/blog/blog-maquillaje-01.jpg"
+        alt="Cosméticos True Beauty">
+
+      <time>18 SEP 2026</time>
+
+      <h3>5 consejos para lograr un maquillaje perfecto</h3>
+
+      <p>
+        Pequeños gestos de preparación y técnica que transforman el resultado.
+      </p>
+
+      <button class="read-more" id="abrir-consejos" type="button">
+        Leer más →
+      </button>
+    </article>
+
+    <!-- ARTÍCULO 2 -->
+    <article class="post medium reveal">
+      <img
+        src="../IMAGENES/productos/base-seda.jpg"
+        alt="Base de maquillaje">
+
+      <time>12 SEP 2026</time>
+
+      <h3>Cómo elegir la base adecuada para tu piel</h3>
+
+      <p>
+        Encuentra el tono, la textura y el acabado que se funden contigo.
+      </p>
+
+      <button class="read-more" id="abrir-base" type="button">
+        Leer más →
+      </button>
+    </article>
+
+    <!-- ARTÍCULO 3 -->
+    <article class="post reveal">
+      <img
+        src="../IMAGENES/productos/paleta-mirada.jpg"
+        alt="Tendencias en sombras">
+
+      <time>05 SEP 2026</time>
+
+      <h3>Tendencias de maquillaje</h3>
+
+      <p>
+        Borgoñas profundos, piel luminosa y destellos con intención.
+      </p>
+
+      <button class="read-more" id="abrir-tendencias" type="button">
+        Leer más →
+      </button>
+    </article>
+
+    <!-- ARTÍCULO 4 -->
+    <article class="post reveal">
+      <img
+        src="../IMAGENES/productos/brochas-esenciales.jpg"
+        alt="Brochas de maquillaje">
+
+      <time>28 AGO 2026</time>
+
+      <h3>Errores comunes al maquillarte</h3>
+
+      <p>
+        Cómo evitarlos para conseguir un acabado pulido y natural.
+      </p>
+
+      <button class="read-more" id="abrir-errores" type="button">
+        Leer más →
+      </button>
+    </article>
+
+    <!-- ARTÍCULO 5 -->
+    <article class="post reveal">
+      <img
+        src="../IMAGENES/productos/rubor-rosa.jpg"
+        alt="Preparación de la piel">
+
+      <time>20 AGO 2026</time>
+
+      <h3>Cómo cuidar tu piel antes del maquillaje</h3>
+
+      <p>
+        El ritual esencial para una piel hidratada y un acabado impecable.
+      </p>
+
+      <button class="read-more" id="abrir-piel" type="button">
+        Leer más →
+      </button>
+    </article>
+
+  </div>
+
+
+
+
+
+
+  
+<!-- ================= VIDEO TRUE BEAUTY ================= -->
+
+<section class="blog-video">
+
+  <div class="blog-video-header">
+
+    <p class="kicker">
+      <span></span>
+     
+    </p>
+
+    <h2>UN RITUAL DE BELLEZA PARA TI</h2>
+
+    <p>
+     True Beauty ° Belleza sin filtros.
+    </p>
+
+  </div>
+
+  <div class="video-container">
+
+    <video
+  controls
+  playsinline
+  preload="metadata"
+  poster="../IMAGENES/blog/unboxing.jpg">
+
+      <source
+        src="../IMAGENES/blog/video-true-beauty.mp4"
+        type="video/mp4">
+
+      Tu navegador no puede reproducir este video.
+
+    </video>
+
+  </div>
+
+  <p class="video-caption">
+   CUIDA TU PIEL, RESALTA TU ESENCIA Y DEJA QUE TU BELLEZA NATURAL HABLÉ POR TI. </TIme>.
+  </p>
+
+</section>
+
+
+<!-- ================= MODAL 1 ================= -->
+
+<div
+  class="modal-consejos"
+  id="modal-consejos"
+  aria-hidden="true">
+
+  <div
+    class="contenido-consejos"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="titulo-consejos">
+
+    <button
+      class="cerrar-consejos"
+      id="cerrar-consejos"
+      type="button"
+      aria-label="Cerrar ventana">
+      &times;
+    </button>
+
+    <p class="kicker gold">True Beauty</p>
+
+    <h2 id="titulo-consejos">
+      5 consejos para lograr un maquillaje perfecto
+    </h2>
+
+
+    <div class="consejo">
+
+      <h3>01. Prepara tu piel</h3>
+
+      <p>
+        Limpia e hidrata tu rostro antes de comenzar.
+        Una piel bien preparada ayuda a conseguir un acabado
+        más uniforme y natural.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>02. Elige la base adecuada</h3>
+
+      <p>
+        Selecciona una base que se adapte a tu tono y tipo
+        de piel para conseguir un resultado natural,
+        uniforme y cómodo.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>03. Utiliza el corrector correctamente</h3>
+
+      <p>
+        Aplica pequeñas cantidades de corrector únicamente
+        en las zonas que quieras perfeccionar y difumina suavemente.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>04. Difumina bien los productos</h3>
+
+      <p>
+        Difumina correctamente la base, las sombras, el rubor
+        y el iluminador para conseguir transiciones suaves
+        y un acabado elegante.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>05. Fija tu maquillaje</h3>
+
+      <p>
+        Finaliza tu rutina con un producto fijador para ayudar
+        a mantener el maquillaje durante más tiempo.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ================= MODAL 2 ================= -->
+
+<div
+  class="modal-consejos"
+  id="modal-base"
+  aria-hidden="true">
+
+  <div
+    class="contenido-consejos"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="titulo-base">
+
+    <button
+      class="cerrar-consejos"
+      id="cerrar-base"
+      type="button"
+      aria-label="Cerrar ventana">
+      &times;
+    </button>
+
+    <p class="kicker gold">True Beauty</p>
+
+    <h2 id="titulo-base">
+      Cómo elegir la base adecuada para tu piel
+    </h2>
+
+
+    <div class="consejo">
+
+      <h3>01. Identifica tu tipo de piel</h3>
+
+      <p>
+        Conocer si tu piel es seca, grasa, mixta o normal
+        te ayudará a elegir una fórmula que se adapte mejor
+        a sus necesidades.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>02. Encuentra tu tono</h3>
+
+      <p>
+        Busca un tono que se acerque al color natural de tu piel.
+        Puedes probarlo en la zona de la mandíbula para conseguir
+        una transición más natural.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>03. Elige el acabado</h3>
+
+      <p>
+        Para una apariencia luminosa puedes elegir un acabado glow.
+        Si prefieres una apariencia más uniforme, puedes optar
+        por un acabado mate o semimate.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>04. Considera la cobertura</h3>
+
+      <p>
+        Una cobertura ligera ofrece un resultado natural,
+        mientras que una cobertura media o alta permite
+        disimular más imperfecciones.
+      </p>
+
+    </div>
+
+
+    <div class="consejo">
+
+      <h3>05. Prepara tu piel</h3>
+
+      <p>
+        Antes de aplicar la base, limpia e hidrata tu rostro.
+        Una piel bien preparada ayuda a conseguir un acabado
+        más uniforme y duradero.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ================= MODAL 3: TENDENCIAS ================= -->
+
+<div class="modal-consejos" id="modal-tendencias" aria-hidden="true">
+  <div class="contenido-consejos" role="dialog" aria-modal="true"
+       aria-labelledby="titulo-tendencias">
+
+    <button class="cerrar-consejos" type="button"
+            data-cerrar-modal aria-label="Cerrar ventana">&times;</button>
+
+    <p class="kicker gold">True Beauty</p>
+    <h2 id="titulo-tendencias">Tendencias de maquillaje</h2>
+
+    <div class="consejo">
+      <h3>01. Piel luminosa</h3>
+      <p>Hidrata tu rostro y utiliza productos que aporten luminosidad para conseguir un acabado fresco y natural.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>02. Tonos tierra y borgoña</h3>
+      <p>Experimenta con marrones, cobres y vinotintos para crear maquillajes elegantes de día o de noche.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>03. Rubor natural</h3>
+      <p>Aplica pequeñas cantidades de rubor y difumina suavemente para aportar un toque saludable a tus mejillas.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>04. Labios protagonistas</h3>
+      <p>Elige tonos nude para un estilo discreto o rojos intensos para destacar tus labios.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>05. Sombras creativas</h3>
+      <p>Combina sombras mates y brillantes para darle personalidad a tu mirada.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= MODAL 4: ERRORES ================= -->
+
+<div class="modal-consejos" id="modal-errores" aria-hidden="true">
+  <div class="contenido-consejos" role="dialog" aria-modal="true"
+       aria-labelledby="titulo-errores">
+
+    <button class="cerrar-consejos" type="button"
+            data-cerrar-modal aria-label="Cerrar ventana">&times;</button>
+
+    <p class="kicker gold">True Beauty</p>
+    <h2 id="titulo-errores">Errores comunes al maquillarte</h2>
+
+    <div class="consejo">
+      <h3>01. No preparar la piel</h3>
+      <p>Limpiar e hidratar el rostro antes del maquillaje ayuda a conseguir una aplicación más uniforme.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>02. Elegir un tono incorrecto de base</h3>
+      <p>Prueba la base cerca de la mandíbula y comprueba el tono con luz natural para encontrar una combinación adecuada.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>03. Aplicar demasiado producto</h3>
+      <p>Comienza con pequeñas cantidades y añade más solo donde lo necesites para evitar un acabado pesado.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>04. No difuminar bien</h3>
+      <p>Difumina los bordes de la base, el corrector, las sombras y el rubor para evitar líneas marcadas.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>05. No limpiar las brochas</h3>
+      <p>Lava tus herramientas regularmente y déjalas secar por completo para mantener una buena higiene.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= MODAL 5: CUIDADO DE LA PIEL ================= -->
+
+<div class="modal-consejos" id="modal-piel" aria-hidden="true">
+  <div class="contenido-consejos" role="dialog" aria-modal="true"
+       aria-labelledby="titulo-piel">
+
+    <button class="cerrar-consejos" type="button"
+            data-cerrar-modal aria-label="Cerrar ventana">&times;</button>
+
+    <p class="kicker gold">True Beauty</p>
+    <h2 id="titulo-piel">Cómo cuidar tu piel antes del maquillaje</h2>
+
+    <div class="consejo">
+      <h3>01. Limpia suavemente tu rostro</h3>
+      <p>Utiliza un limpiador adecuado para tu piel para retirar impurezas y preparar el rostro.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>02. Aplica una crema hidratante</h3>
+      <p>Escoge una hidratante apropiada para tu tipo de piel y deja que se absorba antes de maquillarte.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>03. No olvides el protector solar</h3>
+      <p>Durante el día, aplica protector solar de amplio espectro y sigue las indicaciones de su etiqueta.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>04. Prepara los labios</h3>
+      <p>Usa un bálsamo labial para suavizar los labios antes de aplicar tu labial favorito.</p>
+    </div>
+
+    <div class="consejo">
+      <h3>05. Deja que los productos se absorban</h3>
+      <p>Espera unos minutos antes de aplicar la base para que los productos de cuidado facial se asienten.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="footer-top">
+
+    <img
+      src="../IMAGENES/logos/logo-true-beauty.svg"
+      alt="True Beauty">
+
+    <p>
+      Tu belleza no sigue reglas. Las redefine.
+    </p>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    
+
+    <div class="credit">
+
+      <img
+        src="../IMAGENES/logos/logo-selenios.svg"
+        alt="Logo Selenios Studios">
+
+      <span>
+        Selenios Studios — creador de la página web
+      </span>
+
+    </div>
+<!-- REDES SOCIALES -->
+
+  <div class="social-links">
+
+    <a
+      href="https://www.instagram.com/true_beauty__101/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Instagram
+    </a>
+
+    <a
+      href="https://www.tiktok.com/@true_beauty_101"
+      target="_blank"
+      rel="noopener noreferrer">
+      TikTok
+    </a>
+
+    <a
+      href="https://wa.me/573043732505"
+      target="_blank"
+      rel="noopener noreferrer">
+      WhatsApp
+    </a>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <p>© 2026 True Beauty</p>
+
+    <div class="credit">
+
+      <img
+        src="../IMAGENES/logos/logo-selenios.svg"
+        alt="Logo Selenios Studios">
+
+    
+
+    </div>
+
+  </div>
+
+</footer>
+  </div>
+
+</footer>
+
+<button
+  class="back-top"
+  aria-label="Volver al inicio">
+  ⌃
+</button>
+
+
+<div
+  class="notice"
+  role="status"
+  aria-live="polite">
+</div>
+
+
+<!-- ================= CSS MODALES ================= -->
+
+<style>
+
+.modal-consejos {
+
+  display: none;
+
+  position: fixed;
+
+  z-index: 99999;
+
+  inset: 0;
+
+  background: rgba(0,0,0,.65);
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+}
+
+.modal-consejos.activo {
+
+  display: flex;
+
+}
+
+
+.contenido-consejos {
+
+  position: relative;
+
+  background: #fff;
+
+  width: 90%;
+
+  max-width: 650px;
+
+  max-height: 85vh;
+
+  overflow-y: auto;
+
+  padding: 45px;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 15px 50px rgba(0,0,0,.25);
+
+  animation: aparecerConsejos .3s ease;
+
+}
+
+
+@keyframes aparecerConsejos {
+
+  from {
+
+    opacity: 0;
+
+    transform: translateY(-20px) scale(.97);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0) scale(1);
+
+  }
+
+}
+
+
+.contenido-consejos h2 {
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size: 36px;
+
+  line-height: 1.1;
+
+  margin: 10px 0 25px;
+
+}
+
+
+.consejo {
+
+  margin-bottom: 20px;
+
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #eee;
+
+}
+
+
+.consejo:last-child {
+
+  border-bottom: none;
+
+}
+
+
+.consejo h3 {
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 17px;
+
+  margin: 0 0 7px;
+
+}
+
+
+.consejo p {
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  color: #555;
+
+  margin: 0;
+
+}
+
+
+.cerrar-consejos {
+
+  position: absolute;
+
+  top: 12px;
+
+  right: 18px;
+
+  border: none;
+
+  background: transparent;
+
+  font-size: 32px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  color: #555;
+
+  padding: 5px 10px;
+
+}
+
+
+.cerrar-consejos:hover {
+
+  color: #000;
+
+}
+
+
+@media (max-width:600px) {
+
+  .contenido-consejos {
+
+    padding: 35px 25px;
+
+    width: 95%;
+
+  }
+
+  .contenido-consejos h2 {
+
+    font-size: 28px;
+
+  }
+
+  .consejo h3 {
+
+    font-size: 15px;
+
+  }
+
+  .consejo p {
+
+    font-size: 13px;
+
+  }
+
+}
+
+</style>
+
+
+
+<!-- ================= JAVASCRIPT MODALES Y CATÁLOGO ================= -->
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  /* ===== MODALES DEL BLOG ===== */
+
+  const relaciones = [
+    ["abrir-consejos", "modal-consejos"],
+    ["abrir-base", "modal-base"],
+    ["abrir-tendencias", "modal-tendencias"],
+    ["abrir-errores", "modal-errores"],
+    ["abrir-piel", "modal-piel"]
+  ];
+
+  function cerrarModal(modal) {
+    if (!modal) return;
+
+    modal.classList.remove("activo");
+    modal.setAttribute("aria-hidden", "true");
+
+    if (!document.querySelector(".modal-consejos.activo")) {
+      document.body.style.overflow = "";
+    }
+  }
+
+  relaciones.forEach(function (relacion) {
+    const boton = document.getElementById(relacion[0]);
+    const modal = document.getElementById(relacion[1]);
+
+    if (!boton || !modal) {
+      console.warn("No se encontró el botón o la ventana:", relacion);
+      return;
+    }
+
+    boton.addEventListener("click", function () {
+      modal.classList.add("activo");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    });
+
+    modal.addEventListener("click", function (evento) {
+      if (
+        evento.target === modal ||
+        (evento.target.closest &&
+          evento.target.closest(".cerrar-consejos, [data-cerrar-modal]"))
+      ) {
+        cerrarModal(modal);
+      }
+    });
+  });
+
+  document.addEventListener("keydown", function (evento) {
+    if (evento.key === "Escape") {
+      document.querySelectorAll(".modal-consejos.activo")
+        .forEach(cerrarModal);
+    }
+  });
+
+
+  /* ===== CATÁLOGO DE PRODUCTOS ===== */
+
+  const catalogo = document.getElementById("catalogo");
+
+  if (catalogo) {
+    const botones = catalogo.querySelectorAll(".filters button");
+    const productos = catalogo.querySelectorAll(".product");
+
+    botones.forEach(function (boton) {
+      boton.addEventListener("click", function () {
+        const categoria = boton.dataset.filter;
+
+        // Mostrar la cuadrícula
+        catalogo.classList.add("mostrar-productos");
+
+        // Marcar el filtro seleccionado
+        botones.forEach(function (otroBoton) {
+          otroBoton.classList.remove("active");
+        });
+
+        boton.classList.add("active");
+
+        // Mostrar los productos correspondientes
+        productos.forEach(function (producto) {
+          const coincide =
+            categoria === "Todos" ||
+            producto.dataset.category === categoria;
+
+          producto.style.display = coincide ? "" : "none";
+          producto.classList.add("visible");
+        });
+      });
+    });
+
+    // Al entrar al catálogo, mostrar solo las categorías
+    function comprobarNavegacion() {
+      if (window.location.hash === "#catalogo") {
+        catalogo.classList.remove("mostrar-productos");
+
+        productos.forEach(function (producto) {
+          producto.style.display = "";
+          producto.classList.remove("hidden");
+        });
+
+        botones.forEach(function (boton) {
+          boton.classList.remove("active");
+        });
+
+        const todos = catalogo.querySelector(
+          '.filters button[data-filter="Todos"]'
+        );
+
+        if (todos) todos.classList.add("active");
+      }
+    }
+
+    window.addEventListener("hashchange", comprobarNavegacion);
+    comprobarNavegacion();
+  }
+
+});
+</script>
+</body>
+</html>
+
